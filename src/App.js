@@ -6,6 +6,7 @@ import Navbar from "./componentes/Navbar";
 import Futbol from "./componentes/Futbol";
 import Tenis from "./componentes/Tenis";
 import Voley from "./componentes/Voley";
+import Footer from "./componentes/Footer";
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/voley" element={<Voley />} />
 
         </Routes>
+        <Footer />
       </Router>
     </CanchaProvider>
   );

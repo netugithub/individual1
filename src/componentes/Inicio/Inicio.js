@@ -12,6 +12,8 @@ import "./Inicio.css"
 const Inicio = () => {
   
     const {info} = useContext(Context)
+
+    
   
     
      return ( 

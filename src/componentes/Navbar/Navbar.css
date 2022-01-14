@@ -1,6 +1,6 @@
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .usuario{
@@ -8,5 +8,9 @@
 }
 
 .navbar{
-    background-color:rgb(209, 180, 155)
+    background-color:rgb(87, 146, 97)
+}
+
+.lista{
+    background-color: green;
 }

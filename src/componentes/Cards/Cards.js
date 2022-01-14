@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Context } from "../../store/canchaContext";
 import "./Cards.css"
-
+import { Link } from "react-router-dom";
 
 const Cards = () => {
    
@@ -18,7 +18,7 @@ const Cards = () => {
                     <div className="card-body">
                         <h5 className="card-title">Futbol</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-success">ver mas</a>
+                        <Link to="/futbol" className="btn btn-success">Ir a canchas</Link>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ const Cards = () => {
                     <div className="card-body">
                         <h5 className="card-title">Tenis</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-success">ver mas</a>
+                        <Link to="/tenis" className="btn btn-success">Ir a canchas</Link>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@ const Cards = () => {
                     <div className="card-body">
                         <h5 className="card-title">Voley</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-success">ver mas</a>
+                        <Link to="/voley" className="btn btn-success">Ir a canchas</Link>
                     </div>
                 </div>
             </div>
